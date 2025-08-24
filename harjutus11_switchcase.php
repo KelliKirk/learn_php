@@ -8,7 +8,7 @@ switch ($page_template) {
         break;
     case 'single':
     echo "Üksiku postituse template";
-    $body_class = 'single post';
+    $body_class = 'single-post';
     break;
       case 'archive':
       echo "Arhiivi template";
